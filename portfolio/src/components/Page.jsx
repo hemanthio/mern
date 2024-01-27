@@ -2,10 +2,7 @@ import React from 'react'
 import { MdSearch } from "react-icons/md";  
 import header2 from '../assets/header2.webp'
 import header from '../assets/header.png'
-import figma from '../assets/figma.png'
-import react from '../assets/react.png'
-import tailwind from '../assets/tailwind.png'
-import vscode from '../assets/vscode.png'
+
 
 function Page() {
   return (
@@ -40,11 +37,52 @@ function Page() {
 
 <div>
     <h1 className='text-white text-center'>Projects</h1>
-    {/* iamges */}
-    <div className=''>
+    {/* images */}
+    <div className='grid grid-cols-1 md:grid-cols-2 '>
 
+   <div className=''>
+    <img src={header} alt="" />
+    <div className='flex gap-2'>
+      <h1>react</h1>
+      <h1>gsap</h1>
+      <button>Link</button>
     </div>
-</div>
+   </div>
+
+   <div>
+    <img src={header} alt="" />
+    <div className='flex gap-2'>
+      <h1>react</h1>
+      <h1>gsap</h1>
+      <button>Link</button>
+    </div>
+   </div>
+
+   <div>
+    <img src={header} alt="" />
+    <div className='flex gap-2'>
+      <h1>react</h1>
+      <h1>gsap</h1>
+      <button>Link</button>
+    </div>
+   </div>
+
+   <div>
+    <img src={header} alt="" />
+    <div className='flex gap-2'>
+      <h1>react</h1>
+      <h1>gsap</h1>
+      <button>Link</button>
+    </div>
+   </div>
+
+
+
+   
+    </div>
+ </div>
+
+ {/* contact */}
    
   </div>
     </>
