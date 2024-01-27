@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
    <>
    
-   <div className='text-white w-full flex justify-between items-center  z-[100]' >
+   <div className='text-white w-full absolute flex justify-between items-center  z-[100]' >
     <h1 className='text-red-600 text-3xl font-bold cursor-pointer'>NETFLIX</h1>
     <div className='flex gap-3 '>
         <button className='text-white'>Sign In</button>
